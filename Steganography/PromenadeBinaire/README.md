@@ -9,7 +9,7 @@ Steganography
 Notre équipe de h4ck3r s'est introduite à la maison blanche et est parvenue à exfiltrer un document PDF assez suspect. Nous pensons qu'il contient une information cruciale sur les goûts alimentaires du nouveau président. Nous comptons sur vous pour la déchiffrer et nous aider à faire pression.
 ### Fichier
 
-[SteganoPDF.pdf](Steganography/PromenadeBinaire/SteganoPDF.pdf)
+[SteganoPDF.pdf](SteganoPDF.pdf)
 
 ### Auteur
 
