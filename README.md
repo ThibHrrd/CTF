@@ -1,6 +1,6 @@
 # CTF
 
-Some challenges that I created for HeroCTF and their WriteUP;
+Some challenges that I created for HeroCTF and their WriteUP.
 
 # Challenges
 
