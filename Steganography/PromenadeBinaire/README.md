@@ -23,7 +23,7 @@ C'est un challenge en plusieurs étapes :
 ```
 > binwalk -e SteganoPDF.pdf
 ```
-![Binwalk](Steganography/PromenadeBinaire/data/binwalk.png) 
+![Binwalk](/data/binwalk.png) 
 
 Ainsi, on voit qu'il y a un PNG, et une archive. Mais seule l'archive a été extraite. Essayons de voir comment extraire le PNG.
 
