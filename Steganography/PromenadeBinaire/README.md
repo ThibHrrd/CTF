@@ -9,7 +9,7 @@ Steganography
 Notre équipe de h4ck3r s'est introduite à la maison blanche et est parvenue à exfiltrer un document PDF assez suspect. Nous pensons qu'il contient une information cruciale sur les goûts alimentaires du nouveau président. Nous comptons sur vous pour la déchiffrer et nous aider à faire pression.
 ### Fichier
 
-[SteganoPDF.pdf](Steganography/PromenadeBinaire/SteganoPDF.pdf)
+[SteganoPDF.pdf](SteganoPDF.pdf)
 
 ### Auteur
 
@@ -23,7 +23,7 @@ C'est un challenge en plusieurs étapes :
 ```
 > binwalk -e SteganoPDF.pdf
 ```
-![Binwalk](Steganography/PromenadeBinaire/data/binwalk.png) 
+![Binwalk](data/binwalk.png) 
 
 Ainsi, on voit qu'il y a un PNG, et une archive. Mais seule l'archive a été extraite. Essayons de voir comment extraire le PNG.
 
@@ -44,11 +44,11 @@ Avec Foremost :
 
 3- Foremost nous sort 3 fichiers : 
 
-![Foremost](Steganography/PromenadeBinaire/data/foremost_extract.png)
+![Foremost](data/foremost_extract.png)
 
 4- Avec Stegsolve (https://github.com/eugenekolo/sec-tools/tree/master/stego/stegsolve/stegsolve) on applique un filtre : 
 
-![Stegsolve](Steganography/PromenadeBinaire/data/stegsolve.png)
+![Stegsolve](data/stegsolve.png)
 
 ```
 S0M3_FFF
@@ -58,11 +58,11 @@ S0M3_FFF
 
 6- A la fin du document, on trouve un message suspect :
 
-![B64](Steganography/PromenadeBinaire/data/b64.png)
+![B64](data/b64.png)
 
 7- On reconnait la base64 et on le déchiffre :
 
-![Flag](Steganography/PromenadeBinaire/data/flag.png)
+![Flag](data/flag.png)
 
 
 ### Flag
