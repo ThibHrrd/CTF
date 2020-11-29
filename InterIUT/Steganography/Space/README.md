@@ -73,6 +73,6 @@ La lecture se fait dans un sens bien spécifique comme indiquent les flèches.
 
 ### Flag
 
-H2G2{1_4m_d4_b1g_f47_p4nda}
+H2G2{1_4m_4_b1g_f47_p4nda}
 
 
