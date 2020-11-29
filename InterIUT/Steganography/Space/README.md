@@ -24,7 +24,7 @@ On peut donc imédiatement penser à du langage Whitespace. Après quelques essa
 
 On décide alors d'y vois plus clair en convertissants ces chaines blanches en hexa.
 
-![Hexa](data/hexa.png)
+![Hexa](data/Hexa.png)
 
 En respectant les retours à la ligne (0x0a), la chaine est étonnament carré. De plus il n'y a que deux caractères. On peut donc penser à du binaire.
 On remplace donc 0x09 par 0 et 0x20 par 1.
