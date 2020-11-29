@@ -66,7 +66,7 @@ On revient donc sur notre Datamatrix et on applique la méthode en le remplissan
 
 Pour faciliter le calcul, on superpose notre remplissage avec les carrés de notre Datamatrix : 
 
-![superpose(data/superpose.jpg)
+![superpose](data/superpose.jpg)
 
 La lecture se fait dans un sens bien spécifique comme indiquent les flèches.
 
