@@ -52,7 +52,7 @@ Après plusieurs recherches, on trouve des explications assez clairs sur comment
 
 Il faut remplir l'intérieur du datamatrix avec des patterns bien précis en forme de L.
 
-![decode](data/decode.jpg)
+![decode](data/decode.png)
 
 et ensuite additionner les valeurs correspondantes aux cases noirs de chaques "L" selon ce modèle : 
 
