@@ -58,7 +58,7 @@ et ensuite additionner les valeurs correspondantes aux cases noirs de chaques "L
 
 ![calcul](data/calcul.png)
 
-Pour chaque pattern, on calcule la somme des cases noirs et on fais correspondre ce nombre au code hexa décimal d'un caractère ASCII. On peut donc décoder un caractère par pattern de "L".
+Pour chaque pattern, on calcule la somme des cases noires et on fait correspondre ce nombre au code hexa décimal d'un caractère ASCII. On peut donc décoder un caractère par pattern de "L".
 
 On revient donc sur notre Datamatrix et on applique la méthode en le remplissant de L.
 
